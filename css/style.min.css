@@ -1,0 +1,73 @@
+/*.form-signin {
+    max-width: 730px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-signin-heading {
+    margin-bottom: 10px;
+}*/
+
+/*.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}*/
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/open_sans/OpenSans-Regular.woff2") format("woff2"), url("../fonts/open_sans/OpenSans-Regular.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/open_sans/OpenSans-Bold.woff2") format("woff2"), url("../fonts/open_sans/OpenSans-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+body {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #ffffff;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.btn.btn-action-primary {
+    color: #fff;
+    background-color: #e50000;
+}
+
+.btn-red {
+	border: none;
+	font-size: 15px;
+	font-size: 1.5rem;
+	color: #000;
+	line-height: 45px;
+	background-color: #f0f0f0;
+	padding: 0 30px;
+	height: 46px;
+	min-width: 160px;
+	border-radius: 100px;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 100%;
+}
+
+.btn:focus, 
+.btn:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.btn.btn-action-primary:hover {
+    background: #ce0000;
+    color: #fff;
+}
