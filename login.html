@@ -11,6 +11,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.min.css" rel="stylesheet">
 
+    
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -34,29 +36,35 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-7">
           <form id="contactForm" name="sentMessage" novalidate="novalidate">
             <div class="row">
               <div class="col-md-12">
-                <h2 class="form-signin-heading">Дилерський портал «Тойота Україна»</h2>
+                <h2 class="sect-title">Дилерський портал «Тойота Україна»</h2>
                 <div class="form-group">
-                  <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
+                  <label class="form-label" for="name">Логін</label>
+                  <input class="form-input" id="name" type="text" required="required" data-validation-required-message="Please enter your name.">
                   <p class="help-block text-danger"></p>
                 </div>
 
                 <div class="form-group">
-                  <input class="form-control" id="password" type="password" placeholder="Your password *" required="required" data-validation-required-message="Please enter your password.">
+                  <label class="form-label" for="inputPassword">Пароль</label>
+                  <input class="form-input" id="password" type="password" required="required" data-validation-required-message="Please enter your password.">
                   <p class="help-block text-danger"></p>
                 </div>
+
+
               </div>
 
               <div class="clearfix"></div>
-              <div class="col-lg-12 text-center">
+              <div class="col-lg-12">
                 <div id="success"></div>
                 <div class="btn-wrap">
-                  <button id="sendMessageButton" class="btn btn-red btn-action-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                  <button id="sendMessageButton" class="btn btn-red btn-action-primary btn-xl text-uppercase" type="submit">Вхід</button>
                 </div>
               </div>
+
+
             </div>
           </form>
         </div>
